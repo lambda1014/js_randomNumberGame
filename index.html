@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>Random Number Game</h1>
+    <div class="js-number">Generate the number between 0 and 0</div>
+    <div class="controls_range">
+      <input type="range" id="jsRange" min="0" max="200" value="100" step="5" />
+    </div>
+    <div>
+      Guess the number:
+      <input type="number" class="js-inputNumber" />
+      <button class="js-play">Play!</button>
+    </div>
+    <div class="js-chosenNumber">
+      You chose: 0, the machine chose: 0.
+    </div>
+    <div class="js-result">
+      <div class="js-win">You win!</div>
+      <div class="js-lose">You lost!</div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
