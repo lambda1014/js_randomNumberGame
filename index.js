@@ -1,6 +1,5 @@
-// <⚠️ DONT DELETE THIS ⚠️>
-import "./styles.css";
-// <⚠️ /DONT DELETE THIS ⚠️>
+
+//import "./styles.css";
 
 const selectNumber = document.querySelector(".js-number");
 const rangeSet = document.getElementById("jsRange");
